@@ -1,0 +1,1365 @@
+INFO  2018-04-12 15:43:10,265    70ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:01:47,816    73ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:05:33,971    65ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:08:06,017    66ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:11:46,184    67ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:12:12,609    72ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:12:46,564    65ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:22:27,869    68ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:26:42,378    72ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:27:20,629    71ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:27:48,026    65ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:30:34,342    71ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:33:09,166    68ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:35:52,160    71ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:40:19,151    70ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:50:19,617    70ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:54:51,941    74ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:56:15,782    64ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:56:55,746    70ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:57:35,541    67ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-12 16:58:02,987    73ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 09:10:33,671   153ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 09:11:18,173   176ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 09:13:05,313   176ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 09:34:03,129   168ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 09:34:07,435  4474ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function BaoCao_DiemSo_XepLoai_MonHoc_CapPhong has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 144
+ClientConnectionId:87c67611-4543-46b1-b058-5baaa6b62fac
+Error Number:8144,State:2,Class:16
+ERROR 2018-04-13 09:34:17,255 14294ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function BaoCao_DiemSo_XepLoai_MonHoc_CapPhong has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 144
+ClientConnectionId:9c4c9ed2-d96b-4710-9b8c-f06b85339b47
+Error Number:8144,State:2,Class:16
+ERROR 2018-04-13 09:34:18,182 15221ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function BaoCao_DiemSo_XepLoai_MonHoc_CapPhong has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 144
+ClientConnectionId:87c67611-4543-46b1-b058-5baaa6b62fac
+Error Number:8144,State:2,Class:16
+ERROR 2018-04-13 09:34:18,778 15816ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function BaoCao_DiemSo_XepLoai_MonHoc_CapPhong has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 144
+ClientConnectionId:d097c501-d2fd-47b9-b1d4-79bac1359cd7
+Error Number:8144,State:2,Class:16
+ERROR 2018-04-13 09:34:20,505 17544ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function BaoCao_DiemSo_XepLoai_MonHoc_CapPhong has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 144
+ClientConnectionId:f09b9e32-d382-4dee-8ce7-af0e7cc912a1
+Error Number:8144,State:2,Class:16
+ERROR 2018-04-13 09:34:21,135 18173ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function BaoCao_DiemSo_XepLoai_MonHoc_CapPhong has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 144
+ClientConnectionId:da69a66e-581b-4eae-8270-40dfefd3c8b9
+Error Number:8144,State:2,Class:16
+ERROR 2018-04-13 09:34:45,590 42629ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function BaoCao_DiemSo_XepLoai_MonHoc_CapPhong has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 144
+ClientConnectionId:749c3d64-73b3-478d-be94-8e4a93a09129
+Error Number:8144,State:2,Class:16
+INFO  2018-04-13 09:34:51,950   228ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 09:35:01,190  9469ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function BaoCao_DiemSo_XepLoai_MonHoc_CapPhong has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 144
+ClientConnectionId:e6f808a7-929b-434d-a2ff-4e85f9c671b2
+Error Number:8144,State:2,Class:16
+ERROR 2018-04-13 09:35:33,781 42059ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function BaoCao_DiemSo_XepLoai_MonHoc_CapPhong has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 144
+ClientConnectionId:f3c29644-ce17-449e-83f0-576aec1093e0
+Error Number:8144,State:2,Class:16
+INFO  2018-04-13 09:36:04,252   155ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 09:36:12,498  8401ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function BaoCao_DiemSo_XepLoai_MonHoc_CapPhong has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 144
+ClientConnectionId:1742a3c6-4a98-46d0-a7c7-d06024117e21
+Error Number:8144,State:2,Class:16
+INFO  2018-04-13 09:42:15,929   168ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:00:36,946   189ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:02:16,901   201ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:07:35,678   192ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:08:21,985   183ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:12:27,970   190ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:18:34,999   194ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:25:07,243   168ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:28:03,948    73ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:34:06,255    75ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:35:05,171    65ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:36:16,101   176ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:38:09,772   218ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:39:12,307    65ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:40:50,873    71ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:46:59,175    67ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 10:48:53,037    66ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 11:03:09,944    70ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 11:03:51,289    74ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 11:03:54,154  2939ms Common                 Init               - error
+System.ArgumentException: Column 'DAT_SL' does not belong to underlying table ''.
+   at System.Data.DataView.ToTable(String tableName, Boolean distinct, String[] columnNames)
+   at System.Data.DataView.ToTable(Boolean distinct, String[] columnNames)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 28
+INFO  2018-04-13 11:05:28,652    65ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 11:05:31,136  2549ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 56
+ERROR 2018-04-13 11:05:42,731 14144ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 56
+INFO  2018-04-13 11:07:34,857    69ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 11:07:37,352  2565ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 58
+INFO  2018-04-13 11:08:27,010    65ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 11:08:29,494  2549ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 58
+INFO  2018-04-13 11:18:39,623    94ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 11:18:42,160  2631ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 56
+ERROR 2018-04-13 11:20:59,102 139572ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 56
+INFO  2018-04-13 11:21:33,377   166ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 11:24:30,742   199ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 11:24:39,112  8570ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 56
+INFO  2018-04-13 11:25:18,385   158ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 11:27:29,377   154ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 11:27:38,003  8779ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 56
+INFO  2018-04-13 11:30:57,256    68ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 11:30:59,792  2603ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 58
+INFO  2018-04-13 11:32:03,314    66ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 11:32:05,837  2589ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 58
+INFO  2018-04-13 11:34:56,296    74ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 11:34:58,749  2527ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 59
+INFO  2018-04-13 11:42:13,016    88ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 11:42:15,500  2571ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 60
+INFO  2018-04-13 11:44:39,074    69ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 11:44:41,505  2500ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 60
+INFO  2018-04-13 11:47:31,410    65ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 11:47:33,787  2442ms Common                 Init               - error
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 37
+ERROR 2018-04-13 11:47:42,328 10983ms Common                 Init               - error
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 37
+INFO  2018-04-13 13:30:59,287    86ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 13:31:01,785  2583ms Common                 Init               - error
+System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 73
+INFO  2018-04-13 13:31:53,507   195ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 13:32:01,925  8614ms Common                 Init               - error
+System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 73
+ERROR 2018-04-13 13:32:34,549 41237ms Common                 Init               - error
+System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 73
+INFO  2018-04-13 13:33:14,595   202ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 13:34:54,537   278ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 13:42:50,532   142ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 13:44:19,227    80ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 13:50:10,211    68ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 14:01:06,389    74ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 14:12:46,537    77ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 14:13:34,925    80ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 14:38:31,469    75ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 14:42:21,915    75ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 14:42:45,105   170ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 14:44:27,294   168ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 14:45:48,324   169ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 14:46:51,291   105ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 14:54:40,890    76ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 14:57:29,361    88ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 14:57:49,136    69ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 14:59:13,005    70ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:01:28,257    67ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:03:45,069    66ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:06:38,040    71ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:11:48,859    70ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:12:35,649    86ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:15:47,415    69ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:16:33,718   178ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:17:53,168   172ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:18:48,686   162ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:21:33,312    65ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:23:08,144    75ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:26:07,220    71ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:30:11,235    68ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 15:30:13,758  2591ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 63
+INFO  2018-04-13 15:31:20,115    74ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 15:31:22,627  2586ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 64
+ERROR 2018-04-13 15:31:46,638 26597ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 64
+INFO  2018-04-13 15:34:00,438    68ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 15:34:03,119  2748ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 64
+INFO  2018-04-13 15:34:52,521   171ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:35:38,383   172ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 15:35:44,989  6777ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 64
+INFO  2018-04-13 15:36:16,445   172ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:37:03,269   176ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:40:04,851   159ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 15:40:11,868  7176ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 64
+INFO  2018-04-13 15:41:59,185    94ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 15:42:01,852  2761ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 65
+INFO  2018-04-13 15:43:11,835   168ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 15:45:11,508   164ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 15:45:14,529  3185ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 67
+INFO  2018-04-13 16:06:51,759    77ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:07:04,789 13107ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 69
+INFO  2018-04-13 16:08:40,347    70ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:08:42,553  2276ms Common                 Init               - error
+System.IndexOutOfRangeException: Column number must be between 1 and 16384
+   at ClosedXML.Excel.XLRangeBase.Cell(XLAddress cellAddressInRange)
+   at ClosedXML.Excel.XLRangeBase.Cell(Int32 row, Int32 column)
+   at ClosedXML.Excel.XLWorksheet.ClosedXML.Excel.IXLWorksheet.Cell(Int32 row, Int32 column)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.SetGroupTHCS(IXLWorksheet sheet, List`1 indexs, Int32 rowStart, List`1 columns) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 91
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 54
+INFO  2018-04-13 16:10:17,651    71ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:10:19,968  2388ms Common                 Init               - error
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.SetGroupTHCS(IXLWorksheet sheet, List`1 indexs, Int32 rowStart, List`1 columns) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 92
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 54
+INFO  2018-04-13 16:11:10,417    65ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:11:12,914  2562ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 70
+INFO  2018-04-13 16:12:52,297    65ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:12:54,826  2594ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 70
+ERROR 2018-04-13 16:13:16,873 24641ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 70
+INFO  2018-04-13 16:17:16,769    74ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:17:19,325  2630ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 70
+INFO  2018-04-13 16:22:39,394    69ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:22:42,572  3246ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 70
+ERROR 2018-04-13 16:23:46,772 67446ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 70
+INFO  2018-04-13 16:24:03,902    74ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:24:06,439  2610ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 70
+INFO  2018-04-13 16:24:55,912    89ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:24:58,652  2828ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 70
+INFO  2018-04-13 16:26:06,051    65ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:26:08,651  2665ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 70
+INFO  2018-04-13 16:42:39,352    67ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:42:41,875  2589ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 77
+INFO  2018-04-13 16:44:09,077    71ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:44:12,091  3084ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 77
+INFO  2018-04-13 16:45:05,680   170ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:45:54,211 48702ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 77
+INFO  2018-04-13 16:46:46,844   177ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:46:57,420 10752ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 77
+INFO  2018-04-13 16:48:13,867   156ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:48:16,792  3081ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 77
+INFO  2018-04-13 16:49:07,346    94ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:49:10,106  2855ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 77
+INFO  2018-04-13 16:50:17,415   198ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 16:50:51,637   153ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:51:01,289  9806ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 77
+INFO  2018-04-13 16:53:15,553    80ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:53:18,129  2656ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 77
+ERROR 2018-04-13 16:53:57,329 41855ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 77
+INFO  2018-04-13 16:54:36,739   177ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-13 16:56:24,937   164ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 16:56:39,421 14648ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 77
+ERROR 2018-04-13 16:57:45,294 80521ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 77
+INFO  2018-04-13 17:03:04,267    66ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 17:03:06,547  2346ms Common                 Init               - error
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.SetToanTruong(IXLWorksheet sheet, List`1 indexs, Int32 rowStart, List`1 columns) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 109
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 63
+INFO  2018-04-13 17:04:45,186    67ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 17:04:47,449  2329ms Common                 Init               - error
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.SetToanTruong(IXLWorksheet sheet, List`1 indexs, Int32 rowStart, List`1 columns) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 109
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 63
+INFO  2018-04-13 17:05:14,689    75ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 17:05:17,009  2394ms Common                 Init               - error
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.SetToanTruong(IXLWorksheet sheet, List`1 indexs, Int32 rowStart, List`1 columns) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 109
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 63
+INFO  2018-04-13 17:06:05,351    71ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 17:06:07,893  2613ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 77
+INFO  2018-04-13 17:08:24,685    78ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 17:08:27,123  2517ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 78
+INFO  2018-04-13 17:09:28,960    73ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-13 17:09:31,599  2712ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 78
+ERROR 2018-04-13 17:53:23,551 2634663ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 78
+ERROR 2018-04-13 18:09:25,080 3596192ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 78
+INFO  2018-04-14 08:09:29,586   219ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 08:09:37,445  8078ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 78
+INFO  2018-04-14 08:10:37,942    66ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 08:10:40,364  2487ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 78
+INFO  2018-04-14 08:16:20,664   163ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-14 08:18:33,371   161ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 08:18:39,625  6415ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 83
+INFO  2018-04-14 08:21:41,159    70ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 08:21:43,554  2464ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 83
+INFO  2018-04-14 08:28:47,250    71ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 08:28:49,791  2612ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 50
+INFO  2018-04-14 08:30:17,321    70ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 08:30:19,797  2546ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 51
+INFO  2018-04-14 08:36:19,214    72ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 08:36:26,966  7824ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 59
+INFO  2018-04-14 08:36:51,606    64ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 08:36:58,305  6762ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 59
+INFO  2018-04-14 08:40:22,600    70ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 08:40:29,699  7168ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 59
+INFO  2018-04-14 08:49:34,354    65ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 08:49:41,237  6948ms Common                 Init               - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 57
+INFO  2018-04-14 08:51:54,113    65ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 08:52:29,441 35393ms Common                 Init               - error
+System.IO.FileFormatException: File contains corrupted data.
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.FindPosition(Stream archiveStream)
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.SeekableLoad(ZipIOBlockManager blockManager)
+   at MS.Internal.IO.Zip.ZipArchive..ctor(Stream archiveStream, FileMode mode, FileAccess access, Boolean streaming, Boolean ownStream)
+   at MS.Internal.IO.Zip.ZipArchive.OpenOnFile(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare, Boolean streaming)
+   at DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at ClosedXML.Excel.XLWorkbook.LoadSheets(String fileName)
+   at ClosedXML.Excel.XLWorkbook..ctor(String file)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 18
+ERROR 2018-04-14 08:52:35,557 41509ms Common                 Init               - error
+System.IO.FileFormatException: File contains corrupted data.
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.FindPosition(Stream archiveStream)
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.SeekableLoad(ZipIOBlockManager blockManager)
+   at MS.Internal.IO.Zip.ZipArchive..ctor(Stream archiveStream, FileMode mode, FileAccess access, Boolean streaming, Boolean ownStream)
+   at MS.Internal.IO.Zip.ZipArchive.OpenOnFile(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare, Boolean streaming)
+   at DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at ClosedXML.Excel.XLWorkbook.LoadSheets(String fileName)
+   at ClosedXML.Excel.XLWorkbook..ctor(String file)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 18
+ERROR 2018-04-14 08:55:18,044 203995ms Common                 Init               - error
+System.IO.FileFormatException: File contains corrupted data.
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.FindPosition(Stream archiveStream)
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.SeekableLoad(ZipIOBlockManager blockManager)
+   at MS.Internal.IO.Zip.ZipArchive..ctor(Stream archiveStream, FileMode mode, FileAccess access, Boolean streaming, Boolean ownStream)
+   at MS.Internal.IO.Zip.ZipArchive.OpenOnFile(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare, Boolean streaming)
+   at DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at ClosedXML.Excel.XLWorkbook.LoadSheets(String fileName)
+   at ClosedXML.Excel.XLWorkbook..ctor(String file)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 18
+ERROR 2018-04-14 08:56:42,336 288288ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 134
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ERROR 2018-04-14 08:56:57,701 303652ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 134
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ERROR 2018-04-14 08:56:57,729 303680ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 134
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ERROR 2018-04-14 08:56:57,745 303696ms Common                 Init               - error
+System.IO.FileFormatException: File contains corrupted data.
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.FindPosition(Stream archiveStream)
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.SeekableLoad(ZipIOBlockManager blockManager)
+   at MS.Internal.IO.Zip.ZipArchive..ctor(Stream archiveStream, FileMode mode, FileAccess access, Boolean streaming, Boolean ownStream)
+   at MS.Internal.IO.Zip.ZipArchive.OpenOnFile(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare, Boolean streaming)
+   at DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at ClosedXML.Excel.XLWorkbook.LoadSheets(String fileName)
+   at ClosedXML.Excel.XLWorkbook..ctor(String file)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 18
+INFO  2018-04-14 08:58:57,260    65ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 08:59:35,491 38295ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 134
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ERROR 2018-04-14 08:59:35,518 38322ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 134
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ERROR 2018-04-14 08:59:35,527 38331ms Common                 ExecuteStore       - Get store with param:BaoCao_DiemSo_XepLoai_MonHoc_CapPhong
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at WebApplication1.Models.SqlHelper.SqlAccess.ExecuteStore(String query, String[] names, Object[] values) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Models\SqlHelper\SqlAccess.cs:line 134
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ERROR 2018-04-14 08:59:35,873 38678ms Common                 Init               - error
+System.Data.EvaluateException: Cannot find column [KHOI].
+   at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.DataView..ctor(DataTable table, String RowFilter, String Sort, DataViewRowState RowState)
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.GetWorkSheet(DataTable dataSource, IXLWorksheet sheet, List`1 columns, Int32 rowStart, Int32 rowToanTruongStart) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 68
+   at WebApplication1.Providers.BaoCaoHCM_C2Render.Init(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 37
+INFO  2018-04-14 10:44:20,756   185ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-14 10:45:05,638   194ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-14 10:50:03,158   176ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-14 10:51:11,430   167ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 10:51:24,778 13515ms Common                 Export             - error
+System.ArgumentException: Column 'DAT_TS' does not belong to underlying table ''.
+   at System.Data.DataView.ToTable(String tableName, Boolean distinct, String[] columnNames)
+   at System.Data.DataView.ToTable(Boolean distinct, String[] columnNames)
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonNhanXet.GetWorkSheet(DataTable dataSource, IXLWorksheet sheet, List`1 columns, Int32 rowStart, Int32 rowToanTruongStart) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 77
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonNhanXet.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2Render.cs:line 38
+INFO  2018-04-14 10:52:31,026    79ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 10:52:37,315  6367ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 102
+INFO  2018-04-14 10:56:01,367   102ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-14 10:57:40,454   186ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-14 10:59:40,098   185ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 10:59:51,154 11241ms Common                 btnExport_Click    - Error
+System.ArgumentException: Input array is longer than the number of columns in this table.
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 76
+INFO  2018-04-14 11:00:24,665   175ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 11:00:33,499  9009ms Common                 btnExport_Click    - Error
+System.ArgumentException: Input array is longer than the number of columns in this table.
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 76
+INFO  2018-04-14 11:01:34,297   169ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 11:02:55,244 81116ms Common                 Export             - error
+System.ArgumentException: Cannot set data type to Number because 'TL' is not recognized as a number.
+   at ClosedXML.Excel.XLCell.set_DataType(XLCellValues value)
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.SetGroup(IXLWorksheet sheet, DataTable dt, Int32 rowStart, List`1 columns) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 430
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.GetWorkSheet(DataTable dataSource, IXLWorksheet sheet, List`1 columns, Int32 rowStart, Int32 rowToanTruongStart) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 132
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 85
+INFO  2018-04-14 11:04:15,703   172ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 11:04:33,406 17875ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 102
+ERROR 2018-04-14 11:04:33,777 18246ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 111
+   at WebApplication1.Providers.BaoCaoHCMManager.ExportBaoCaoHCM(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 11:06:04,119   186ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-14 11:07:35,853    82ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 11:07:42,287  6517ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 102
+ERROR 2018-04-14 11:07:42,602  6831ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 111
+   at WebApplication1.Providers.BaoCaoHCMManager.ExportBaoCaoHCM(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 11:09:51,798   180ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-14 11:11:57,134   173ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 11:12:03,577  6616ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 102
+ERROR 2018-04-14 11:12:03,883  6922ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 111
+   at WebApplication1.Providers.BaoCaoHCMManager.ExportBaoCaoHCM(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 11:18:19,262    77ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 11:18:25,689  6504ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 102
+ERROR 2018-04-14 11:18:25,974  6788ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 111
+   at WebApplication1.Providers.BaoCaoHCMManager.ExportBaoCaoHCM(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 11:22:30,576    77ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 11:22:33,064  2566ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 102
+ERROR 2018-04-14 11:22:33,363  2864ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 111
+   at WebApplication1.Providers.BaoCaoHCMManager.ExportBaoCaoHCM(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+ERROR 2018-04-14 11:22:34,864  4365ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 102
+ERROR 2018-04-14 11:22:35,130  4631ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 111
+   at WebApplication1.Providers.BaoCaoHCMManager.ExportBaoCaoHCM(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+ERROR 2018-04-14 11:22:36,348  5849ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 102
+ERROR 2018-04-14 11:22:36,610  6112ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 111
+   at WebApplication1.Providers.BaoCaoHCMManager.ExportBaoCaoHCM(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 11:24:51,360   185ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 11:25:11,217 20043ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 104
+ERROR 2018-04-14 11:25:12,004 20830ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 113
+   at WebApplication1.Providers.BaoCaoHCMManager.ExportBaoCaoHCM(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 11:28:35,501    76ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 11:28:38,048  2622ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 104
+ERROR 2018-04-14 11:28:38,344  2919ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 113
+   at WebApplication1.Providers.BaoCaoHCMManager.ExportBaoCaoHCM(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 11:32:00,686    81ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 11:32:12,194 11589ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 104
+ERROR 2018-04-14 11:32:12,482 11877ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 113
+   at WebApplication1.Providers.BaoCaoHCMManager.ExportBaoCaoHCM(String fileTemplate, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangThongKe) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 13:15:02,809    76ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 13:15:11,953  9220ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 187
+ERROR 2018-04-14 13:15:12,246  9513ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 196
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaoCaoHCM(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToantruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 13:20:36,346    76ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 13:20:42,756  6485ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 187
+ERROR 2018-04-14 13:20:43,142  6872ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 196
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaoCaoHCM(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToantruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 13:23:27,795   177ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-14 13:35:06,323   154ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 13:35:13,878  7709ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 187
+ERROR 2018-04-14 13:35:14,126  7957ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 196
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaoCaoHCM(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToantruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 13:45:18,633    74ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 13:45:21,258  2700ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 187
+ERROR 2018-04-14 13:45:21,555  2996ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 196
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaoCaoHCM(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToantruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 13:47:33,413    71ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 13:47:50,455 17113ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 187
+ERROR 2018-04-14 13:47:50,715 17373ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 196
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaoCaoHCM(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToantruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 13:57:57,961    71ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 13:58:04,932  7042ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 189
+ERROR 2018-04-14 13:58:05,192  7302ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 198
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaoCaoHCM(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToantruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 13:58:23,356    66ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 13:58:30,715  7424ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 189
+ERROR 2018-04-14 13:58:30,969  7678ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaocaoHCM_Nhieumon(String fileTemplateMonNhanXet, String fileTemplateMonDiemSo, List`1 monhoc, DataTable dt, String MaPGD, String MaNamhoc, Int32 Hocky, Int32 SoLieu) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 122
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 81
+INFO  2018-04-14 14:02:14,001    68ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 14:02:24,722 10789ms Common                 Export             - error
+System.IO.FileFormatException: File contains corrupted data.
+   at MS.Internal.IO.Zip.ZipIOExtraFieldElement.ParseDataField(BinaryReader reader, UInt16 size)
+   at MS.Internal.IO.Zip.ZipIOExtraFieldElement.Parse(BinaryReader reader, ZipIOZip64ExtraFieldUsage zip64extraFieldUsage)
+   at MS.Internal.IO.Zip.ZipIOExtraField.ParseRecord(BinaryReader reader, ZipIOZip64ExtraFieldUsage zip64extraFieldUsage, UInt16 expectedExtraFieldSize)
+   at MS.Internal.IO.Zip.ZipIOCentralDirectoryFileHeader.ParseRecord(BinaryReader reader, Encoding encoding)
+   at MS.Internal.IO.Zip.ZipIOCentralDirectoryBlock.ParseRecord(BinaryReader reader, Int64 centralDirectoryOffset, Int32 centralDirectoryCount, Int64 expectedCentralDirectorySize)
+   at MS.Internal.IO.Zip.ZipIOCentralDirectoryBlock.SeekableLoad(ZipIOBlockManager blockManager)
+   at MS.Internal.IO.Zip.ZipIOBlockManager.get_CentralDirectoryBlock()
+   at MS.Internal.IO.Zip.ZipArchive.GetFiles()
+   at System.IO.Packaging.ZipPackage.ContentTypeHelper..ctor(ZipArchive zipArchive, IgnoredItemHelper ignoredItemHelper)
+   at System.IO.Packaging.ZipPackage..ctor(Stream s, FileMode mode, FileAccess access, Boolean streaming)
+   at System.IO.Packaging.Package.Open(Stream stream, FileMode packageMode, FileAccess packageAccess, Boolean streaming)
+   at DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(Stream stream, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(Stream stream, Boolean isEditable, OpenSettings openSettings)
+   at ClosedXML.Excel.XLWorkbook.CreatePackage(Stream stream, Boolean newStream)
+   at ClosedXML.Excel.XLWorkbook.SaveAs(Stream stream)
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 187
+ERROR 2018-04-14 14:02:24,737 10804ms Common                 Export             - error
+System.IO.FileNotFoundException: Could not find file 'c:\users\l540\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\Uploads\upload_mon_diemso_template.xlsx'.
+File name: 'c:\users\l540\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\Uploads\upload_mon_diemso_template.xlsx'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at MS.Internal.IO.Zip.ZipArchive.OpenOnFile(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode mode, FileAccess access, FileShare share, Boolean streaming)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare, Boolean streaming)
+   at DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at ClosedXML.Excel.XLWorkbook.LoadSheets(String fileName)
+   at ClosedXML.Excel.XLWorkbook..ctor(String file)
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 149
+INFO  2018-04-14 14:03:05,916    66ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 14:03:12,006  6156ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 191
+ERROR 2018-04-14 14:03:12,254  6404ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaocaoHCM_Nhieumon(String fileTemplateMonNhanXet, String fileTemplateMonDiemSo, List`1 monhoc, DataTable dt, String MaPGD, String MaNamhoc, Int32 Hocky, Int32 SoLieu) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 122
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 81
+INFO  2018-04-14 14:03:29,885    64ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 14:03:35,517  5695ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 189
+ERROR 2018-04-14 14:03:35,814  5992ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaocaoHCM_Nhieumon(String fileTemplateMonNhanXet, String fileTemplateMonDiemSo, List`1 monhoc, DataTable dt, String MaPGD, String MaNamhoc, Int32 Hocky, Int32 SoLieu) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 122
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 81
+INFO  2018-04-14 14:22:31,089    87ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 14:22:40,007  9005ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 189
+ERROR 2018-04-14 14:22:40,303  9301ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 198
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaoCaoHCM(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToantruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 14:29:50,839    71ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 14:29:56,910  6141ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCMExportDiemMonhoc.Response(XLWorkbook workbook, String name) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 170
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 220
+ERROR 2018-04-14 14:29:57,165  6396ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 228
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaoCaoHCM(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToantruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+ERROR 2018-04-14 14:32:31,449 160681ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCMExportDiemMonhoc.Response(XLWorkbook workbook, String name) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 170
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 220
+ERROR 2018-04-14 14:32:31,738 160970ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 228
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaoCaoHCM(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToantruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 80
+INFO  2018-04-14 14:48:26,338    79ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 14:48:33,118  6859ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCMExportDiemMonhoc.Response(XLWorkbook workbook, String name) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 196
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 247
+ERROR 2018-04-14 14:48:33,400  7140ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 255
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaoCaoHCM(String fileTemplate, String tenmonhoc, String namhoc, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToantruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 84
+INFO  2018-04-14 15:00:20,153    68ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 15:00:35,265 15180ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCMExportDiemMonhoc.Response(XLWorkbook workbook, String name) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 196
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 267
+ERROR 2018-04-14 15:00:35,535 15450ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 275
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaoCaoHCM(String fileTemplate, String tenmonhoc, String namhoc, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToantruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 84
