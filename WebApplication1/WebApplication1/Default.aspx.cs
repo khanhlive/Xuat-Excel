@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using WebApplication1.Models.SqlHelper;
+using XuatExcelClosedXML.Models.SqlHelper;
 
-namespace WebApplication1
+namespace XuatExcelClosedXML
 {
     public partial class _Default : Page
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebApplication1.Models.SqlHelper
+namespace XuatExcelClosedXML.Models.SqlHelper
 {
     public interface ISqlAction<T,KeyType>
     {

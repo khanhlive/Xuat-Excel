@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
-using WebApplication1.Providers;
+using XuatExcelClosedXML.Providers;
 
-namespace WebApplication1.Excels
+namespace XuatExcelClosedXML.Excels
 {
     public partial class BaocaoHCM : System.Web.UI.Page
     {

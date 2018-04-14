@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebApplication1.ExcelCore.Interface
+namespace XuatExcelClosedXML.ExcelCore.Interface
 {
     public interface IExportExcel
     {

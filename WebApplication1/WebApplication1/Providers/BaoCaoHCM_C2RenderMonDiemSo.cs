@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 
-namespace WebApplication1.Providers
+namespace XuatExcelClosedXML.Providers
 {
     public class BaoCaoHCMManager
     {
@@ -615,18 +615,6 @@ namespace WebApplication1.Providers
             return row;
         }
 
-        protected string GetAddressString(IXLCell cellAddress, bool type=false)
-        {
-            if (type)
-            {
-                // có $
-                return string.Format("{0}${1}", cellAddress.Address.ColumnLetter, cellAddress.Address.RowNumber);
-            }
-            else
-            {
-                // ko có $
-                return string.Format("{0}", cellAddress.Address.ToString());
-            }
-        }
+        
     }
 }

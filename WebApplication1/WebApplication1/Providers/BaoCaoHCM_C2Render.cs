@@ -7,7 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 
-namespace WebApplication1.Providers
+namespace XuatExcelClosedXML.Providers
 {
     /// <summary>
     /// Báo cáo Hồ Chí Minh Môn nhận xét

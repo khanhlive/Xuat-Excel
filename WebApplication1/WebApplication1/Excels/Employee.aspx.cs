@@ -8,13 +8,13 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using WebApplication1.Design;
-using WebApplication1.ExcelCore;
-using WebApplication1.Models;
-using WebApplication1.Models.Entites;
-using WebApplication1.Models.SqlHelper;
+using XuatExcelClosedXML.Design;
+using XuatExcelClosedXML.ExcelCore;
+using XuatExcelClosedXML.Models;
+using XuatExcelClosedXML.Models.Entites;
+using XuatExcelClosedXML.Models.SqlHelper;
 
-namespace WebApplication1.Excels
+namespace XuatExcelClosedXML.Excels
 {
     public partial class Employee : System.Web.UI.Page
     {

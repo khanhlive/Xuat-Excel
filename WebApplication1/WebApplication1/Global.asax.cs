@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
-using WebApplication1;
+using XuatExcelClosedXML;
 
-namespace WebApplication1
+namespace XuatExcelClosedXML
 {
     public class Global : HttpApplication
     {

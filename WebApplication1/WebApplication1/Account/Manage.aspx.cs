@@ -4,7 +4,7 @@ using System.Linq;
 
 using Microsoft.AspNet.Membership.OpenAuth;
 
-namespace WebApplication1.Account
+namespace XuatExcelClosedXML.Account
 {
     public partial class Manage : System.Web.UI.Page
     {

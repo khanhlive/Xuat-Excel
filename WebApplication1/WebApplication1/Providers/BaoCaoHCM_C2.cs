@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Web;
-using WebApplication1.Models.SqlHelper;
+using XuatExcelClosedXML.Models.SqlHelper;
 
-namespace WebApplication1.Providers
+namespace XuatExcelClosedXML.Providers
 {
     public class BaoCaoHCM_C2
     {

@@ -1363,3 +1363,18 @@ System.Threading.ThreadAbortException: Thread was being aborted.
    at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 275
    at WebApplication1.Providers.BaoCaoHCMManager.XuatBaoCaoHCM(String fileTemplate, String tenmonhoc, String namhoc, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToantruong) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
    at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in c:\Users\L540\Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 84
+INFO  2018-04-14 15:40:16,550   306ms Global                 Application_Start  - asd á dá ad áda
+INFO  2018-04-14 15:42:03,398   348ms Global                 Application_Start  - asd á dá ad áda
+ERROR 2018-04-14 15:42:35,489 32438ms Common                 Export             - error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at WebApplication1.Providers.BaoCaoHCMExportDiemMonhoc.Response(XLWorkbook workbook, String name) in D:\Công vi?c\D? án\Xuat Excel\Xuat-Excel\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 196
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in D:\Công vi?c\D? án\Xuat Excel\Xuat-Excel\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 267
+ERROR 2018-04-14 15:42:35,518 32467ms Common                 btnExport_Click    - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at WebApplication1.Providers.BaoCaoHCM_C2RenderMonDiemSo.Export(String fileTemplate, String name, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToanTruong) in D:\Công vi?c\D? án\Xuat Excel\Xuat-Excel\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 275
+   at WebApplication1.Providers.BaoCaoHCMManager.XuatBaoCaoHCM(String fileTemplate, String tenmonhoc, String namhoc, DataTable[] dataSource, Int32 hangBatDauBangChiTiet, Int32 hangBatDauBangToantruong) in D:\Công vi?c\D? án\Xuat Excel\Xuat-Excel\WebApplication1\WebApplication1\Providers\BaoCaoHCM_C2RenderMonDiemSo.cs:line 44
+   at WebApplication1.Excels.BaocaoHCM.btnExport_Click(Object sender, EventArgs e) in D:\Công vi?c\D? án\Xuat Excel\Xuat-Excel\WebApplication1\WebApplication1\Excels\BaocaoHCM.aspx.cs:line 84

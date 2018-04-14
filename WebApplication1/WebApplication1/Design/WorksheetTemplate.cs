@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WebApplication1.ExcelCore;
+using XuatExcelClosedXML.ExcelCore;
 
-namespace WebApplication1.Design
+namespace XuatExcelClosedXML.Design
 {
     public abstract class WorksheetTemplate
     {

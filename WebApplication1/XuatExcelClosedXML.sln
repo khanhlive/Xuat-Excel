@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{62367842-1ED2-4BA2-9F57-0ECD5E9C29EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XuatExcelClosedXML", "WebApplication1\XuatExcelClosedXML.csproj", "{62367842-1ED2-4BA2-9F57-0ECD5E9C29EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09CA3E49-F79B-4D45-896E-F7E8D23E2F58}
 	EndGlobalSection
 EndGlobal

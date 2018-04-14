@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 
-namespace WebApplication1.Models.SqlHelper
+namespace XuatExcelClosedXML.Models.SqlHelper
 {
     public class SqlAccess
     {

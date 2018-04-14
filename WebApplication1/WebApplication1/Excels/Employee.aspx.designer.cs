@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1.Excels {
+namespace XuatExcelClosedXML.Excels {
     
     
     public partial class Employee {

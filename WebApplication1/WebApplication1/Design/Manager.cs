@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Web;
-using WebApplication1.ExcelCore;
+using XuatExcelClosedXML.ExcelCore;
 
-namespace WebApplication1.Design
+namespace XuatExcelClosedXML.Design
 {
     public class BookManager
     {

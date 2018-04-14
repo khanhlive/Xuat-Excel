@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Optimization;
 
-namespace WebApplication1
+namespace XuatExcelClosedXML
 {
     public class BundleConfig
     {

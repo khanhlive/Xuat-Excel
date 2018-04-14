@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1 {
+namespace XuatExcelClosedXML {
     
     
     public partial class ViewSwitcher {

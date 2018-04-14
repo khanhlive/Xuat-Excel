@@ -7,9 +7,9 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Web;
-using WebApplication1.ExcelCore;
+using XuatExcelClosedXML.ExcelCore;
 
-namespace WebApplication1.Design
+namespace XuatExcelClosedXML.Design
 {
     public class ExcelCommon
     {

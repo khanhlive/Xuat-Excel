@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Employee.aspx.cs" Inherits="WebApplication1.Excels.Employee" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Employee.aspx.cs" Inherits="XuatExcelClosedXML.Excels.Employee" %>
 
 <%@ Register Assembly="ASP.Web.UI.PopupControl"
     Namespace="ASP.Web.UI.PopupControl"
@@ -48,7 +48,7 @@
                                     <th>Điện thoại</th>
                                 </thead>
                                 <tbody>
-                                    <%foreach (WebApplication1.Models.Entites.NhanVien item in employees)
+                                    <%foreach (XuatExcelClosedXML.Models.Entites.NhanVien item in employees)
                                       {
                                     %>
                                     <tr>

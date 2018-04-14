@@ -5,9 +5,9 @@ using System.Data;
 using System.IO;
 using System.Linq;
 using System.Web;
-using WebApplication1.ExcelCore.Interface;
+using XuatExcelClosedXML.ExcelCore.Interface;
 
-namespace WebApplication1.ExcelCore
+namespace XuatExcelClosedXML.ExcelCore
 {
     public class WorkbookManager : IExportExcel
     {

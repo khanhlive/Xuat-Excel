@@ -6,9 +6,9 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Web;
-using WebApplication1.ExcelCore;
+using XuatExcelClosedXML.ExcelCore;
 
-namespace WebApplication1.Design
+namespace XuatExcelClosedXML.Design
 {
     
     public class WorksheetConfig : ICloneable
